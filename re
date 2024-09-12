@@ -1,3 +1,7 @@
-git clone https://github.com/titaniumnetwork-dev/alloyproxy.git
-cd alloyproxy
-node server.js
+{
+    "port": "8080",
+    "ssl": false,
+    "prefix": "/web/",
+    "localAddresses": [],
+    "blockedHostnames": []
+}
